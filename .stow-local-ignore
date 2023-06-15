@@ -1,0 +1,6 @@
+\.git
+\.gitignore
+vscode-extensions
+^/README.*
+^/LICENSE.*
+^/COPYING
