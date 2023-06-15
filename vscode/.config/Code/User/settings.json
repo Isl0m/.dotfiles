@@ -1,0 +1,35 @@
+{
+  // Font
+  "editor.fontFamily": "'JetBrainsMono Nerd Font','Droid Sans Mono', 'monospace', monospace",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+
+  //  UI
+  "window.zoomLevel": 1,
+  "window.menuBarVisibility": "toggle",
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Eva Dark Italic",
+  "workbench.activityBar.visible": false,
+
+  "editor.minimap.enabled": false,
+  "editor.glyphMargin": false,
+
+  // Formatting
+  "editor.formatOnSave": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
