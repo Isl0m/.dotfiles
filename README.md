@@ -11,3 +11,18 @@ symlinks for all of my dotfiles using a single command:
 ```sh
 stow .
 ```
+## Node Js and NPM 
+
+Installing nodejs and npm
+
+```sh
+sudo dnf install nodejs
+```
+
+Setting up NPM
+
+```sh 
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+fish_add_path ~/.npm-global/bin:$PATH
+```
