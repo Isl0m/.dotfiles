@@ -22,6 +22,9 @@ M.treesitter = {
   context_commentstring = {
     enable = true,
   },
+  autotag = {
+    enable = true,
+  }
 }
 
 M.mason = {

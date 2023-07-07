@@ -1,15 +1,15 @@
 {
   // Font
   "editor.fontFamily": "'JetBrainsMono Nerd Font','Droid Sans Mono', 'monospace', monospace",
-  "editor.fontSize": 16,
+  "editor.fontSize": 17,
   "editor.fontLigatures": true,
+  "terminal.integrated.fontSize": 17,
 
   //  UI
   "window.zoomLevel": 1,
   "window.menuBarVisibility": "toggle",
 
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Eva Dark Italic",
   "workbench.activityBar.visible": false,
 
   "editor.minimap.enabled": false,
@@ -31,5 +31,90 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "totalTypeScript.hiddenTips": [
+    "typing-function-parameters",
+    "basic-types",
+    "ts-object-type",
+    "optional-object-property",
+    "type-alias-declaration",
+    "passing-generics-to-types",
+    "typeof",
+    "variable-type-annotation",
+    "tuple-type",
+    "union-type",
+    "pick-utility-type",
+    "literal-type",
+    "array-type",
+    "type-alias-with-generics",
+    "type-alias-with-multiple-generics",
+    "generic-slots-in-functions",
+    "mapped-type",
+    "keyof",
+    "as-const",
+    "as-const-on-object"
+  ],
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": true,
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "terminal.integrated.env.linux": {},
+  "explorer.confirmDelete": false,
+  "workbench.startupEditor": "none",
+
+  // Vim
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["leader", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["leader", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["leader", "x"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "workbench.colorTheme": "Noctis Minimus"
 }

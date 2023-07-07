@@ -33,6 +33,7 @@ local plugins = {
     opts = overrides.treesitter,
     dependencies = {
       "JoosepAlviste/nvim-ts-context-commentstring",
+      "windwp/nvim-ts-autotag"
     },
   },
 
@@ -79,6 +80,9 @@ local plugins = {
       }
     end,
   },
+  {
+    "windwp/nvim-ts-autotag"
+  }
 }
 
 return plugins
