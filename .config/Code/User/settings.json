@@ -52,7 +52,13 @@
     "mapped-type",
     "keyof",
     "as-const",
-    "as-const-on-object"
+    "as-const-on-object",
+    "in-operator-narrowing",
+    "required-utility-type",
+    "nonnullable-utility-type",
+    "type-predicate",
+    "omit-utility-type",
+    "never-keyword"
   ],
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
@@ -67,54 +73,17 @@
   "explorer.confirmDelete": false,
   "workbench.startupEditor": "none",
 
-  // Vim
-  "vim.easymotion": true,
-  "vim.incsearch": true,
-  "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": true,
-  "vim.hlsearch": true,
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.normalModeKeyBindings": [
-    {
-      "before": ["leader", "w"],
-      "commands": ["workbench.action.files.save"]
-    },
-    {
-      "before": ["leader", "e"],
-      "commands": ["workbench.view.explorer"]
-    },
-    {
-      "before": ["leader", "x"],
-      "commands": ["workbench.action.closeActiveEditor"]
-    }
-  ],
-  "vim.visualModeKeyBindings": [
-    {
-      "before": [">"],
-      "commands": ["editor.action.indentLines"]
-    },
-    {
-      "before": ["<"],
-      "commands": ["editor.action.outdentLines"]
-    }
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<leader>", "d"],
-      "after": ["d", "d"]
-    }
-  ],
-  "vim.leader": "<space>",
-  "vim.handleKeys": {
-    "<C-a>": false,
-    "<C-f>": false
-  },
   "git.enableSmartCommit": true,
   "git.autofetch": true,
-  "workbench.colorTheme": "Noctis Minimus"
+  "workbench.colorTheme": "Eva Dark",
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true,
+    "live-preview-extension": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "svelte.enable-ts-plugin": true,
+  "codesandbox.currentWorkspace": "494dade9-a931-4b23-8d3d-2645b2b92a62"
 }
