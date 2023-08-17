@@ -14,9 +14,11 @@ fisheva.eva-theme
 formulahendry.auto-rename-tag
 fractalbrew.backticks
 helixquar.randomeverything
-liviuschera.noctis
 lllllllqw.jsdoc
 mattpocock.ts-error-translator
+miguelsolorio.fluent-icons
+miguelsolorio.min-theme
+miguelsolorio.symbols
 ms-python.autopep8
 ms-python.python
 ms-python.vscode-pylance
@@ -30,10 +32,13 @@ ritwickdey.LiveServer
 streetsidesoftware.code-spell-checker
 SumitSaha.learn-with-sumit-theme
 svelte.svelte-vscode
+tal7aouy.icons
 VisualStudioExptTeam.intellicode-api-usage-examples
 VisualStudioExptTeam.vscodeintellicode
+vscodevim.vim
 vunguyentuan.vscode-postcss
 WallabyJs.console-ninja
+wayou.vscode-todo-highlight
 wix.vscode-import-cost
 wware.snippet-creator
 yoavbls.pretty-ts-errors

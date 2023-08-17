@@ -1,7 +1,7 @@
 {
   // Font
-  "editor.fontFamily": "'JetBrainsMono Nerd Font','Droid Sans Mono', 'monospace', monospace",
-  "editor.fontSize": 17,
+  "editor.fontFamily": "'FiraCode Nerd Font', 'Hack Nerd Font', 'BlexMono Nerd Font', 'JetBrainsMono Nerd Font', 'CaskaydiaCove Nerd Font',  monospace",
+  "editor.fontSize": 16,
   "editor.fontLigatures": true,
   "terminal.integrated.fontSize": 17,
 
@@ -9,7 +9,7 @@
   "window.zoomLevel": 1,
   "window.menuBarVisibility": "toggle",
 
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
   "workbench.activityBar.visible": false,
 
   "editor.minimap.enabled": false,
@@ -19,6 +19,7 @@
   "editor.formatOnSave": true,
   "explorer.confirmDragAndDrop": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
 
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -58,7 +59,9 @@
     "nonnullable-utility-type",
     "type-predicate",
     "omit-utility-type",
-    "never-keyword"
+    "never-keyword",
+    "partial-utility-type",
+    "interface-with-generics"
   ],
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
@@ -75,7 +78,7 @@
 
   "git.enableSmartCommit": true,
   "git.autofetch": true,
-  "workbench.colorTheme": "Eva Dark",
+  "workbench.colorTheme": "Min Dark",
   "console-ninja.toolsToEnableSupportAutomaticallyFor": {
     "live-server-extension": true,
     "live-preview-extension": true
@@ -85,5 +88,26 @@
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
   "svelte.enable-ts-plugin": true,
-  "codesandbox.currentWorkspace": "494dade9-a931-4b23-8d3d-2645b2b92a62"
+  "codesandbox.currentWorkspace": "494dade9-a931-4b23-8d3d-2645b2b92a62",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.productIconTheme": "fluent-icons",
+
+  // Vim
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-w>": false
+  },
+  "todohighlight.isEnable": false
 }
