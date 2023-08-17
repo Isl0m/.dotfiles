@@ -2,14 +2,15 @@
   // Font
   "editor.fontFamily": "'FiraCode Nerd Font', 'Hack Nerd Font', 'BlexMono Nerd Font', 'JetBrainsMono Nerd Font', 'CaskaydiaCove Nerd Font',  monospace",
   "editor.fontSize": 16,
+  // == ->
   "editor.fontLigatures": true,
   "terminal.integrated.fontSize": 17,
 
   //  UI
   "window.zoomLevel": 1,
+  // Top Menu Bar
   "window.menuBarVisibility": "toggle",
 
-  "workbench.iconTheme": "symbols",
   "workbench.activityBar.visible": false,
 
   "editor.minimap.enabled": false,
@@ -20,6 +21,11 @@
   "explorer.confirmDragAndDrop": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 2,
+
+  // Themes
+  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "Min Dark",
+  "workbench.productIconTheme": "fluent-icons",
 
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -33,6 +39,15 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "svelte.enable-ts-plugin": true,
+
+  // TotalTypescirpt extension settings
   "totalTypeScript.hiddenTips": [
     "typing-function-parameters",
     "basic-types",
@@ -63,34 +78,30 @@
     "partial-utility-type",
     "interface-with-generics"
   ],
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
-  "typescript.updateImportsOnFileMove.enabled": "always",
   "totalTypeScript.hideAllTips": false,
   "totalTypeScript.hideBasicTips": true,
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // TailwindCSS support for cva or class validation authority
   "tailwindCSS.experimental.classRegex": [
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
   ],
-  "terminal.integrated.env.linux": {},
   "explorer.confirmDelete": false,
   "workbench.startupEditor": "none",
 
+  // For Git
   "git.enableSmartCommit": true,
   "git.autofetch": true,
-  "workbench.colorTheme": "Min Dark",
+
+  // Console ninja
   "console-ninja.toolsToEnableSupportAutomaticallyFor": {
     "live-server-extension": true,
     "live-preview-extension": true
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
-  "svelte.enable-ts-plugin": true,
   "codesandbox.currentWorkspace": "494dade9-a931-4b23-8d3d-2645b2b92a62",
   "symbols.hidesExplorerArrows": false,
-  "workbench.productIconTheme": "fluent-icons",
 
   // Vim
   "vim.easymotion": true,
@@ -108,6 +119,5 @@
     "<C-a>": false,
     "<C-f>": false,
     "<C-w>": false
-  },
-  "todohighlight.isEnable": false
+  }
 }
