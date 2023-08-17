@@ -1,7 +1,7 @@
 \.git
 \.gitignore
-vscode-extensions
 vscode-extensions.txt
+add_to_git.sh
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
