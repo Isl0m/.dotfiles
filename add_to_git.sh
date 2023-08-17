@@ -1,10 +1,11 @@
 #!/bin/bash
-code --list-extensions > ./vscode-extensions/temp-list.txt
+# Get the list of extensions
+extensions="$(code --list-extensions)"
 
-while read extension; do
-  echo code --install-extension "$extension" >> ./vscode-extensions/install-list.sh
-done < ./vscode-extensions/temp-list.txt
+# Write extensions to file
+echo "$extensions" > vscode-extensions.txt
 
-rm ./vscode-extensions/temp-list.txt
+# Add 'code --install-extension' to each line
+sed -i -e 's/^/code --install-extension /' vscode-extensions.txt
 
 git add .
