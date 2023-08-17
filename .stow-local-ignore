@@ -1,6 +1,7 @@
 \.git
 \.gitignore
 vscode-extensions
+vscode-extensions.txt
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
