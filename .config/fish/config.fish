@@ -14,4 +14,9 @@ end
 zoxide init fish | source
 starship init fish | source
 alias pnpx="pnpm dlx"
+alias vim="nvim"
 
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH

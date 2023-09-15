@@ -5,9 +5,6 @@
   // == ->
   "editor.fontLigatures": true,
   "terminal.integrated.fontSize": 17,
-
-  //  UI
-  "window.zoomLevel": 1,
   // Top Menu Bar
   "window.menuBarVisibility": "toggle",
 
@@ -24,7 +21,7 @@
 
   // Themes
   "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Min Dark",
+  "workbench.colorTheme": "One Dark Space Gray",
   "workbench.productIconTheme": "fluent-icons",
 
   "[css]": {
@@ -46,40 +43,6 @@
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
   "svelte.enable-ts-plugin": true,
-
-  // TotalTypescirpt extension settings
-  "totalTypeScript.hiddenTips": [
-    "typing-function-parameters",
-    "basic-types",
-    "ts-object-type",
-    "optional-object-property",
-    "type-alias-declaration",
-    "passing-generics-to-types",
-    "typeof",
-    "variable-type-annotation",
-    "tuple-type",
-    "union-type",
-    "pick-utility-type",
-    "literal-type",
-    "array-type",
-    "type-alias-with-generics",
-    "type-alias-with-multiple-generics",
-    "generic-slots-in-functions",
-    "mapped-type",
-    "keyof",
-    "as-const",
-    "as-const-on-object",
-    "in-operator-narrowing",
-    "required-utility-type",
-    "nonnullable-utility-type",
-    "type-predicate",
-    "omit-utility-type",
-    "never-keyword",
-    "partial-utility-type",
-    "interface-with-generics"
-  ],
-  "totalTypeScript.hideAllTips": false,
-  "totalTypeScript.hideBasicTips": true,
 
   "typescript.updateImportsOnFileMove.enabled": "always",
 
@@ -103,21 +66,7 @@
   "codesandbox.currentWorkspace": "494dade9-a931-4b23-8d3d-2645b2b92a62",
   "symbols.hidesExplorerArrows": false,
 
-  // Vim
-  "vim.easymotion": true,
-  "vim.incsearch": true,
-  "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": true,
-  "vim.hlsearch": true,
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.handleKeys": {
-    "<C-a>": false,
-    "<C-f>": false,
-    "<C-w>": false
-  }
+  "terminal.integrated.env.linux": {},
+  "cSpell.userWords": ["denullable", "trpc"],
+  "window.zoomLevel": 1
 }
