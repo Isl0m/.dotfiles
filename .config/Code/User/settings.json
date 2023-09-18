@@ -5,13 +5,19 @@
   // == ->
   "editor.fontLigatures": true,
   "terminal.integrated.fontSize": 17,
-  // Top Menu Bar
+
+  // UI
   "window.menuBarVisibility": "toggle",
 
-  "workbench.activityBar.visible": false,
+  "breadcrumbs.enabled": false,
 
-  "editor.minimap.enabled": false,
+  // "workbench.activityBar.visible": false,
+  // "editor.guides.indentation": false,
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
   "editor.glyphMargin": false,
+  "editor.showFoldingControls": "never",
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
 
   // Formatting
   "editor.formatOnSave": true,
@@ -35,9 +41,6 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
   },
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
@@ -68,5 +71,6 @@
 
   "terminal.integrated.env.linux": {},
   "cSpell.userWords": ["denullable", "trpc"],
+  "editor.minimap.enabled": false,
   "window.zoomLevel": 1
 }
