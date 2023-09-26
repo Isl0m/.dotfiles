@@ -72,5 +72,7 @@
   "terminal.integrated.env.linux": {},
   "cSpell.userWords": ["denullable", "trpc"],
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "editor.linkedEditing": true,
+  "workbench.activityBar.visible": false
 }

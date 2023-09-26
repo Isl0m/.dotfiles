@@ -20,3 +20,10 @@ alias vim="nvim"
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
+
+# exa
+alias ls "exa --color=always --icons --group-directories-first"
+alias la 'exa --color=always --icons --group-directories-first --all'
+alias ll 'exa --color=always --icons --group-directories-first --all --long'
+alias lt 'exa --tree --color=always --icons --group-directories-first --all'
+

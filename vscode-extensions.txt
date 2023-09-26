@@ -14,7 +14,6 @@ code --install-extension fivepointseven.vscode-theme-onedark-spacegray
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension fractalbrew.backticks
 code --install-extension lllllllqw.jsdoc
-code --install-extension mattpocock.ts-error-translator
 code --install-extension miguelsolorio.fluent-icons
 code --install-extension miguelsolorio.min-theme
 code --install-extension miguelsolorio.symbols
